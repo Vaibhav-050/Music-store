@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  /* Player Component styles */
+  .player-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #282828;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-success {
+    background-color: #1db954;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .player-details {
+    margin-top: 20px;
+  }
+  
+  .player-details p {
+    font-size: 14px;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .audio-controls {
+    margin-top: 20px;
+  }
+  
+  /* Search Component styles */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Song Component styles */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .col-4 {
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #1db954;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
